@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ruan.finalproject.ViewPagerActivity$PlaceholderFragment"
+    android:background="@drawable/quize"
+    android:paddingTop="20dip"
+    android:paddingLeft="10dip"
+    android:paddingRight="10dip"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/question4"
+        android:paddingBottom="10dip"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="30dip"
+        android:orientation="vertical"
+        android:paddingBottom="30dip">
+        <RadioButton
+            android:id="@+id/q4a1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PEREGRINE FALCON"/>
+        <RadioButton
+            android:id="@+id/q4a2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CHEETAH"/>
+        <RadioButton
+            android:id="@+id/q4a3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BROWN HARE"/>
+    </RadioGroup>
+
+</LinearLayout>

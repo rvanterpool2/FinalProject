@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">FinalProject</string>
+    <string name="title_activity_list_view">ListViewActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_view_pager">VIewPagerActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_view_p">ViewPActivity</string>
+    <string name="question1">The jame River is locate where</string>
+    <string name="question2">whats the fastest fish in the sea?</string>
+    <string name="question3">What is the world\'s smallest ocean?</string>
+    <string name="question4">which is considered the fastest animal?</string>
+    <string name="question5">What is the biggest island in the Caribbean?"</string>
+    <string name="listview"> Lets Begin Select Items In List To Begin</string>
+    <string name="the_end">THIS IS THE END OF MY PROGRAM HOPE YOU ENJOYED</string>
+
+    <string name="q1answer">0</string>
+    <string name="q2answer">0</string>
+    <string name="q3answer">0</string>
+    <string name="q4answer">0</string>
+    <string name="q5answer">0</string>
+    <string name="title_activity_animation">AnimationActivity</string>
+</resources>

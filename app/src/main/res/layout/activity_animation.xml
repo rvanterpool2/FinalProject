@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context="ruan.finalproject.AnimationActivity"
+    android:background="@drawable/coconuttree"
+    >
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_margin="30dp"
+            android:gravity="bottom"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="56dp"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:src="@drawable/greennut"
+                android:layout_weight="1.7" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="256dp"
+            android:layout_height="455dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/decelerate"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Drop Coconut" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
